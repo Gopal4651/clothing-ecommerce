@@ -1,0 +1,325 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.section1{
+    background-image: url(https://th.bing.com/th/id/OIP.4VyTyuWXhG364amW7DfKvwHaE8?w=306&h=197&c=7&r=0&o=5&dpr=1.5&pid=1.7);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    background-attachment: fixed;
+}
+.section1 .head1{
+    padding: 100px 100px;
+}
+.section1 .head1 h1{
+    color: rgb(112, 62, 62);
+    font-size: 100px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: lighter;
+ }
+ .section1 .head1 p{
+     color: rgb(248, 224, 192);
+     font-size: 40px;
+     text-align: center;
+     margin-bottom: 80px;
+ }
+ .section1 .head1 a{
+     color: blanchedalmond;
+     font-size: 30px;
+ }
+ .section1 .head1 .a2{
+     color: red;
+     background-color: rgb(255, 200, 127);
+     padding: 5px;
+     font-size: 30px;
+     text-align: right;
+     text-decoration: none;
+     margin-bottom: 50px;
+     margin: 0px 780px;
+     margin-right: 0;
+ }
+ .section1 .head1 .a1{
+     color: red;
+     background-color: rgb(255, 200, 127);
+     padding: 5px;
+     font-size: 30px;
+     text-decoration: none;
+ }
+ .nav{
+     position: relative;
+     background-color: #fff;
+ }
+ .nav-fixed{
+     position: fixed;
+     top: 0;
+     left: 0;
+     right: 0;
+     box-shadow: 0px 3px 50px 0px rgb(172, 168, 168);
+     z-index: 2;
+ }
+ .right-nav{
+     padding-top: 30px;
+     
+}
+.middle-nav{
+    padding-top: 30px
+}
+.right-nav .nav-text{
+    color: black;
+    font-weight: bolder;
+}
+.middle-nav .nav-text{
+    color: black;
+    font-weight: bolder;
+}
+.right-nav .nav-text:hover{
+    color: rgb(124, 122, 122);
+}
+.middle-nav .nav-text:hover{
+    color: rgb(124, 122, 122);
+}
+
+.section2 h2{
+    text-align: center;
+    margin-top: 20px;
+}
+.section2 .Shoe-img{
+    padding: 10px;
+    border: 3px solid gray;
+}
+.section2 .Joggers-img{
+    padding: 10px;
+    border: 3px solid gray;
+}
+.section2 .Shirt-img{
+    padding: 10px;
+    border: 3px solid gray;
+}
+.section2 .Jeans-img{
+    padding: 10px;
+    border: 3px solid gray;
+}
+.section3 h2{
+    text-align: center;
+    margin-top: 20px;
+}
+.section3 .Makeup-img {
+    padding: 10px;
+    border: 3px solid rgb(218, 78, 78);
+}
+.section3 .handbag-img {
+    padding: 10px;
+    border: 3px solid rgb(218, 78, 78);
+}
+.section3 .Footwear-img {
+    padding: 10px;
+    border: 3px solid rgb(218, 78, 78);
+}
+.section3 .Watch-img {
+    padding: 10px;
+    border: 3px solid rgb(218, 78, 78);
+}
+.section4{
+    padding: 20px 20px;
+}
+.section4 .vid{
+    overflow: hidden;
+    height: 500px;
+}
+.section4 .vid video{
+    width: 100%;
+    height: 100%;
+}
+.section5{
+    padding: 20px;
+}
+.section5 .contact a{
+    color: rgb(77, 53, 24);
+    padding:5px;
+}
+.section5 .social-media{
+    margin-top: 15px;
+}
+.section5 .social-media a{
+    color: rgb(77, 53, 24);
+    padding:5px;
+}
+.section5 .copywrite{
+    text-align: center;
+    color: rgb(77, 53, 24);
+}
+/* About */
+.section-about{
+    padding: 20px 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+.section-about p{
+    padding: 10px;
+    margin-top: 100px;
+}
+/*  */
+hr{
+    margin-top: 30px;
+    color: black;
+}
+footer .section5 .policy{
+    float: right;
+}
+footer .section5 .policy h5{
+    text-align: center;
+    color: rgb(77, 53, 24);
+}
+footer .section5 .policy p{
+    text-align: center;
+    color: rgb(77, 53, 24);
+}
+.modal{
+    border: 40px solid rgb(77, 53, 24);
+}
+.modal .modal-header .modal-title{
+    color: rgb(77, 53, 24);
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+.modal form{
+    text-align: center;
+    padding-right: 20px;
+    margin: 10px;
+    width: 100%;
+}
+.modal form input{
+    width: 100%;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid rgb(77, 53, 24);
+}
+.modal form .log-button{
+    background-image: linear-gradient(95deg ,rgb(77, 53, 24), brown );
+    text-align: center;
+    margin: 3px;
+    padding: 2px;
+}
+.modal form a{
+    text-decoration: none;
+}
+.modal .MEN{
+    padding: 15px;
+    color: rgb(77, 53, 24);
+}
+.modal .MEN a{
+    text-decoration: none;
+    color: rgb(77, 53, 24);
+}
+.modal .WOMEN{
+    padding: 15px;
+    float: right;
+    color: rgb(77, 53, 24);
+}
+.modal .WOMEN a{
+    text-decoration: none;
+    color: rgb(77, 53, 24);
+}
+/* signup */
+.signup-section{
+    margin-top: 120px;
+    padding: 100px;
+    border: 4px solid black;
+    width: 60%;
+}
+.signup-section form a{
+    text-decoration: none;
+    color: black;
+}
+
+.signup-section form .log-button{
+    background-image: linear-gradient(95deg ,rgb(77, 53, 24), brown );
+    text-align: center;
+    margin: 3px;
+    padding: 2px;
+}
+
+/* footwear */
+.sectionf1{
+    margin-top: 100px;
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.sectionf1 .foot1{
+    padding: 3px;
+}
+.sectionf1 .foot1 p{
+    background-color: blanchedalmond;
+    color: rgb(8, 8, 8);  
+}
+.sectionf1 .foot1 a{
+    float: right;
+    margin-right: 10px;
+    text-decoration: none;
+    color: rgb(77, 53, 24);
+    font-weight: 800;
+    background-color: rgb(236, 225, 225);
+}
+.sectionf1 .foot2{
+    padding: 3px;
+}
+.sectionf1 .foot2 p{
+    background-color: blanchedalmond;
+    color: rgb(8, 8, 8);  
+}
+.sectionf1 .foot2 a{
+    float: right;
+    margin-right: 10px;
+    text-decoration: none;
+    color: rgb(77, 53, 24);
+    font-weight: 800;
+    background-color: rgb(236, 225, 225);
+}
+.sectionf1 .foot3{
+    padding: 3px;
+}
+.sectionf1 .foot3 p{
+    background-color: blanchedalmond;
+    color: rgb(8, 8, 8);  
+    width: 98.7%;
+}
+.sectionf1 .foot3 a{
+    float: right;
+    margin-right: 10px;
+    text-decoration: none;
+    color: rgb(77, 53, 24);
+    font-weight: 800;
+    background-color: rgb(236, 225, 225);
+}
+.sectionf1 .foot4{
+    padding: 3px;
+}
+.sectionf1 .foot4 p{
+    background-color: blanchedalmond;
+    color: rgb(8, 8, 8);  
+    width: 99.6%;
+}
+.sectionf1 .foot4 a{
+    float: right;
+    margin-right: 10px;
+    text-decoration: none;
+    color: rgb(77, 53, 24);
+    font-weight: 800;
+    background-color: rgb(236, 225, 225);
+}
+/* address */
+.address-section{
+    margin-top: 80px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 2px 3px 6px 0px grey;
+}
+.address-section .address-button{
+    margin-top: 10px;
+}
